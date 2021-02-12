@@ -1,6 +1,6 @@
 puts "What is your name?"
 name = gets
-puts "Hello " + name + "Good to meet ya!!\nLets play a game.."
+puts "Hello. #{name}. Good to meet ya!!\nLets play a game.."
 puts "How old are you #{name}?"
 age = gets.to_i
 if age <= 21
